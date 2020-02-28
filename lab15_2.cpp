@@ -36,7 +36,6 @@ void findColSum(const double *x,double *y,int z,int c){
 			for(int j=0;j<c;j++){
 				*(y+j)+=*((x+j)+i);
 		}
-	
 	}
 	
 }
